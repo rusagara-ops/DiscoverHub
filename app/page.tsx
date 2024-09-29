@@ -13,6 +13,7 @@ export default function Home() {
   },[])
 
   const getPlaceList=async(value:string)=>{
+    setPlaceList([]);
     const result =await fetch('api/google-place-api?q='+value)
     const data = await result.json()
 
