@@ -9,7 +9,7 @@ function Hero() {
         <Image src='/bg5.png' alt='hero-image' 
             width={1000}
             height={400}
-            className='w-full absolute mt-[-280px]' />
+            className='w-full absolute mt-[-300px]' />
             <div className='mt-[70px] z-10'>
                 <h2 className='text-[55px] text-red-600 
                 tracking-widest font-semibold'> 
