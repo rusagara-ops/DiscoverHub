@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+DiscoverHub
+DiscoverHub is a dynamic and responsive web application designed to help users search for businesses, view detailed business information, and add their own listings. Built using cutting-edge technologies like Next.js 13, React, Tailwind CSS, Google Places API, and TypeScript, the app delivers a smooth and intuitive user experience.
 
-## Getting Started
+Key Features
+Search Functionality: DiscoverHub allows users to search for businesses using keywords. The app fetches relevant results from the Google Places API, providing a real-time list of businesses that match the search criteria.
 
-First, run the development server:
+Map Integration: The app integrates the Google Maps API, offering users an interactive map that displays the exact location of each business. When a business is clicked, a map drawer opens, revealing more detailed information such as the address, ratings, and business hours.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Real-Time Location Display: The map updates in real-time as users interact with it, making it easy to find nearby businesses or explore a specific area.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Business Details: Clicking on any listing from the search results takes the user to a detailed business view. This page includes the business name, location, contact details, and a live map showing its exact location.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+User Submission Form: Users can add their own business listings via a submission form, which then appears alongside existing businesses from the Google Places API.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Technologies Used
+Next.js 13: Provides server-side rendering and static site generation for fast performance and SEO benefits.
+React: A component-based architecture for building interactive and modular user interfaces.
+Tailwind CSS: A utility-first CSS framework for responsive, modern, and streamlined designs.
+Google Places API: Used to fetch business data such as names, addresses, and ratings based on user searches.
+Google Maps API: Delivers interactive maps to display business locations and allow users to explore real-time locations.
+TypeScript: Ensures type safety and reduces potential bugs by catching errors during development.
