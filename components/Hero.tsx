@@ -6,7 +6,7 @@ function Hero() {
   return (
     <div className='text-center'>
         <div>
-        <Image src='/bg4.png' alt='hero-image' 
+        <Image src='/bg5.png' alt='hero-image' 
             width={1000}
             height={400}
             className='w-full absolute mt-[-280px]' />
