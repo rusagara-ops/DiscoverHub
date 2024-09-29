@@ -37,6 +37,15 @@ function PlaceList({ placeList }: any) {
         </div>
       ) : null}
 
+<div
+        className="grid 
+        grid-cols-2 
+        md:grid-cols-3 
+        lg:grid-cols-4
+        gap-5"
+      >
+        {[1,2,3,4,5,6,7]}
+      </div>
        {placeList?.length==0? <div
         className="grid 
         grid-cols-2 
