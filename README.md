@@ -2,6 +2,12 @@
 
 **DiscoverHub** is a dynamic and responsive web application designed to help users search for businesses, view detailed business information, and add their own listings. Built using cutting-edge technologies like **Next.js 13**, **React**, **Tailwind CSS**, **Google Places API**, and **TypeScript**, the app delivers a smooth and intuitive user experience.
 
+
+
+https://github.com/user-attachments/assets/49500618-30e7-4be1-b9eb-7da3eb8762fa
+
+
+
 ## **Key Features**
 
 - **Search Functionality**:  
